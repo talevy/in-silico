@@ -1,0 +1,19 @@
+[package]
+
+name = "penrose"
+version = "0.0.1"
+authors = ["Tal Levy <JubBoy333@gmail.com>"]
+
+[[bin]]
+name = "penrose"
+path = "src/main.rs"
+
+[dependencies]
+num = "*"
+
+[dependencies.lazy_static]
+git = "https://github.com/Kimundi/lazy-static.rs"
+
+[dependencies.cairo]
+git = "https://github.com/talevy/rust-cairo"
+branch = "make-happy-for-nightly"
