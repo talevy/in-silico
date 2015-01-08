@@ -1,0 +1,14 @@
+[package]
+
+name = "pd"
+version = "0.0.1"
+authors = ["Tal Levy <JubBoy333@gmail.com>"]
+
+[dependencies.docopt_macros]
+git = "git://github.com/docopt/docopt.rs"
+
+[dependencies.img_hash]
+git = "https://github.com/cybergeek94/img_hash"
+
+[dependencies.image]
+git = "https://github.com/PistonDevelopers/image"
