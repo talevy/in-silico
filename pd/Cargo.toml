@@ -12,3 +12,6 @@ git = "https://github.com/cybergeek94/img_hash"
 
 [dependencies.image]
 git = "https://github.com/PistonDevelopers/image"
+
+[dependencies.glob]
+git = "https://github.com/rust-lang/glob"
